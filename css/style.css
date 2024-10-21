@@ -1,0 +1,1907 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* header styling starts here */
+header > div.nav-icons{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    margin: 0 10%;
+}
+div.nav-icons > ul.mail{
+    padding-left: 20px;
+    margin-left: 10%;
+}
+ul.icons{
+    margin-right: 10%;
+}
+ul.icons > li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.mail > li,
+ul.icons > li {
+    display: inline;
+    list-style: none;
+    padding: 2px;
+}  
+
+/* navbar styling starts here */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 7px 9% 0 10%;
+    /* position: fixed; */
+}
+
+ul.navbar > li{
+    display: inline;
+}
+
+ul.navbar > li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    font-family: sans-serif;
+}
+
+ul.navbar > li a:hover{
+    background-color: red;
+    transition: 0.5s ease-in-out;
+    padding: 15px 5px;
+    
+}
+
+ul.navbar > li:first-child{
+    background-color: rgb(256, 56, 26);
+    padding: 15px 2px;
+}
+
+select#pages{
+    font-size: 15px;
+    border: none;
+}
+
+nav h1{
+    font-size: 30px;
+    color: rgb(256, 56, 26);
+}
+
+button.cta-1{
+    padding: 8px 13px;
+    background-color: rgb(256, 56, 26);
+    border: none;
+    cursor: pointer;
+}
+
+nav p{
+    display: none;
+}
+/* navbar styling ends here */
+
+/* hero-section styling starts here */
+
+section.hero{
+    background-image: url(../images/header.jpg);
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div.hero-section{
+    background-color: rgba(0, 0, 0, 0.796);
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    line-height: 4rem;
+}
+
+div.hero-section h3{
+    font-size: 2rem;
+    color: rgb(256, 56, 26);
+}
+
+div.hero-section h1{
+    font-size: 3.9rem;
+    color: white;
+}
+
+div.hero-section button{
+    padding: 16px;
+    margin-left: -5px;
+    background-color: rgb(256, 56, 26);
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+div.hero-section input[type="text"]{
+    padding: 15px;
+    width: 22rem;
+}
+div.hero-section button,
+div.hero-section input[type="text"]{
+    margin-top: 45px;
+}
+
+/* hero-section styling ends here */
+/* header-section styling ends here */
+
+/* main styling starts here */
+
+/* about us styling starts here */
+/* the border we added is for proper aligning */
+
+
+main > div.about-us div.experience div.years{
+    background-color: rgb(256, 56, 26);
+    /* width: %; */
+    min-width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main > div.about-us > div.experience div.truck-img{
+    max-width: 28vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    /* margin-left: 20%; */
+}
+
+main > div.about-us div.experience{
+    width: 50%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    /* border: 1px solid blue; */
+}
+
+main > div.about-us div.article{
+    width: 50vw;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: px; */
+}
+main > div.about-us div.article h6{
+    color: rgb(256, 56, 26);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif
+}
+main > div.about-us div.article h3{
+    color: black;
+    font-size: 25px;
+    /* font-weight: bolder; */
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 0 10px;
+}
+main > div.about-us div.article p.article{
+    line-height: 20px;
+    padding-bottom: 15px;
+    color: rgb(115, 114, 114);
+    /* border: 1px solid black; */
+    width: 70%;
+    text-align: justify;
+}
+main > div.about-us > div.article > div.player > div.big-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgb(213, 161, 161);
+    position: relative;
+}
+main > div.about-us > div.article > div.player > div.big-circle div.small-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > div.about-us > div.article > div.player{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+main > div.about-us > div.article > div.player .play{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5em;
+}
+/* about us styling ends here */
+
+/* request part styling starts here */
+
+div.request-container{
+    background-color: rgb(243, 243, 243);
+    width: 80%;
+    height: 45vh;
+    margin: auto;
+    display: flex;
+    margin-top: 4.5em;
+}
+div.request-container div.request-wrapper{
+    display: flex;
+    margin-left: 4em;
+}
+div.request-container div.request-article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    /* border: 1px solid green; */
+    /* margin-left: %; */
+}
+div.request-container div.request-article h5{
+    color: rgb(256, 56, 26);
+    padding-bottom: 6px;
+    font-size: 13px;
+    font-family: arial;
+}
+div.request-container div.request-article h1{
+    color: #000;
+    padding-bottom: 6px;
+    font-size: 25px;
+}
+div.request-container div.request-article p{
+    color: grey;
+    padding-bottom: 8px;
+    font-size: 15px;
+    /* border: 1px solid blue; */
+    width: 95%;
+    text-align: justify;
+}
+
+div.request-container div.request-article th{
+   color: rgb(256, 56, 26);
+   font-size: 2em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   padding-bottom: 3px;
+}
+
+div.request-container div.request-article td{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+div.request-container div.request-form{
+    background-color: rgb(256, 56, 26);
+    min-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    margin-left: 2em;
+    /* border: 1px solid blue; */
+    
+} 
+div.request-container > div.request-wrapper > div.request-form > form > input[type="text"],
+div.request-container > div.request-wrapper > div.request-form > form > input[type="email"]{   
+    width: 25vw;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+
+div.request-container > div.request-wrapper > div.request-form > form > select,
+div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+    background-color: #000;
+    color: whitesmoke;
+    cursor: pointer;
+}
+div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+
+/* request part styling starts here */
+
+/* services part starts here */
+
+section.services{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center;
+    margin-top: 5em;
+}
+
+div.services-container{
+    display: flex;
+}
+div.services-container span{
+    color: white;
+    margin-left: 8px;
+}
+div.services-container i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+div.air,
+div.ocean,
+div.land,
+div.cargo{
+    width: 16%;
+    padding: 0 8px;
+}
+
+section.services > div.services-container div.icons{
+    background-color: rgb(256, 56, 26);
+    /* width: 10em; */
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section.services h6{
+    color: rgb(256, 56, 26);
+    font-size: 15px;
+
+}
+section.services h1{
+    font-size: 2em;
+}
+.services-container{
+    margin-top: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.services-container > div p{
+    color: grey;
+    margin: 12px 0px;
+}
+
+.services-container a{
+    text-decoration: none;
+    color:  rgb(256, 56, 26);
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px dotted grey;
+}
+/* services parts ends here */
+
+/* feature section starts here */
+
+section.feature-section{
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+section.feature-section > div.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 5px;
+}
+
+section.feature-section > div.feature img{
+    width: 25vw;
+    height: 50vh;
+
+    /* margin-top: 2px; */
+}
+
+div.feature .text{
+    margin: 8px 0 0 20px;
+    width: 50%;
+}
+
+div.feature .text h6{
+    color:  rgb(256, 56, 26);
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 6px;
+    /* padding-top: 50px; */
+}
+div.feature .text h1{
+    font-size: 1.5em;
+    line-height: 1.1em;
+    padding-bottom: 8px;
+}
+div.feature .text p{
+    /* border: 1px solid green; */
+    max-width: 60vw;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+div.feature .text ul{
+    /* margin-left: 3em; */
+    font-weight: bold;
+    list-style: none;
+}
+div.feature .text ul span{
+    color: red;
+    margin-right: 1.2em;
+}
+div.feature .text button{
+    background-color: rgb(256, 56, 26);
+    border: rgb(256, 56, 26);
+    padding: 8px 10px;
+    margin: 1.2em 0em;
+    cursor: pointer;
+}
+/* div.feature .text button:hover{
+    background-color: blue;
+    color: ;
+    transition: 0.3ms ease-in-out;
+} */
+
+/* feature section ends here */
+
+/* delivery section styling starts here */
+
+div.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em auto 0;
+    width: 80%;
+    /* border: 1px solid blue; */
+    font-family: sans-serif;
+}
+
+div.delivery h5{
+    color: rgb(256, 56, 26);
+}
+
+div.delivery h1{
+    margin-bottom: 1em;
+}
+
+div.delivery div.team-images{
+    display: flex;
+    gap: 1em;
+}
+
+div.delivery > div.team-images div.team div{
+    min-width: 8rem;
+    display: flex;
+}
+div.delivery > div.team-images div.team div img{
+    width: 100%;
+}
+
+div.delivery > div.team-images > div.team div.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 14rem; */
+    background-color: grey;
+    height: 4em;  
+    line-height: 1.5em;
+    border-bottom: 3px solid red; 
+}
+div.delivery > div.team-images > div.team div.Name h2{
+    font-size: 1.3em;
+}
+div.delivery > div.team-images > div.team div.Name p{
+    font-size: 1em;
+}
+/* delivery section styling ends here */
+
+/* main section styling ends here */
+
+
+/* footer section styling ends here */
+section.footer-section{
+    background-color: #020116e7;
+    width: 80%;
+    height: 46vh;
+    margin: auto;
+}
+
+section.footer-section > div.section-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+section.footer-section > div.section-1 div.get-section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 1.7rem;
+}
+
+section.footer-section > div.section-1 div.links-section{
+    width: 30%;
+    margin: 2rem 0 0 0rem;
+}
+section.footer-section > div.section-1 div.news-section{
+    width: 40%;
+    margin: 2em 1em 0 0;
+}
+section.footer-section > div.section-1 div.news-section p{
+    width: 28vw;
+}
+section.footer-section > div.section-1 h3{
+    color:  rgb(256, 56, 26);
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+}
+
+section.footer-section > div.section-1 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+section.footer-section > div.section-1 a{
+    text-decoration: none;
+    color: white;
+}
+section.footer-section > div.section-1 div.get-section div.brands{
+    display: flex;
+    gap: 5px;
+}
+
+section.footer-section > div.section-1 div.get-section div.brands div{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;   
+}
+
+section.footer-section > div.section-1 input[type="email"]{
+    padding: 1em 5em 1em 1em;
+    border: none;
+    margin-bottom: 3px;
+}
+
+section.footer-section > div.section-1 button{
+    padding: 1em;
+    background-color: rgb(256, 56, 26);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* hr{
+    border:1px solid rgba(96, 95, 95, 0.775);
+    width: 80%;
+    margin: auto;
+} */
+
+section.copy-footer{
+    background-color: #020116e7;
+    width: 80%;
+    margin: auto;
+    height: 8em;
+    /* margin-top: 2em; */
+    display: flex;
+    align-items: end;
+    border: none
+}
+
+section.copy-footer div.footer{
+    /* background-color: #020116e7; */
+    width: 100%;
+    height: 8em;
+    display: flex;
+    /* margin-top: 5em; */
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    
+}
+section.copy-footer div.footer div.right{
+    margin: 5em 0 0 2em;
+    color: white;
+    font-size: 0.85em;
+}
+section.copy-footer div.footer ul li{
+    display: inline;
+    color: white;
+    font-size: 0.85em;
+    margin: 0 2em 0 0;
+}
+section.copy-footer div.footer ul{
+    margin-top: 4em;
+}
+section.copy-footer div.footer a{
+    text-decoration: none;
+    color: white;
+}
+section.copy-footer div.footer span{
+    color: red;
+}
+
+/* footer section ends here */
+
+
+
+
+
+
+/* meadia query between 575px to 767px starts here */
+
+@media only screen and (min-width:580px) and (max-width:767px){
+   
+    /* nav bar */
+    nav p{
+        display: contents;
+    } 
+    ul.navbar > li{
+        display: none;
+    }
+
+    div.nav-icons > ul.mail{
+        padding-left: px;
+        margin-left: 8%;
+        font-size: 13px;
+    }
+    
+    ul.icons > li {
+    display: inline;
+    list-style: none;
+    padding: 1px;
+    }  
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* position: fixed; */
+        /* margin: 7px 9% 0 10%; */
+    }
+    button.cta-1{
+        display: none;
+    } 
+    /* nav bar */
+
+    /* hero section */
+    div.hero-section h3{
+        font-size: 1.5rem;
+        color: rgb(256, 56, 26);
+    }
+    
+    div.hero-section h1{
+        font-size: 3rem;
+        color: white;
+    }
+    
+    div.hero-section button{
+        padding: 15px;
+        margin-left: -5px;
+        background-color: rgb(256, 56, 26);
+        border: none;
+    }
+    
+    div.hero-section input[type="text"]{
+        padding: 15px;
+        width: 18rem;
+        border: none;
+    }
+ 
+    /* hero section */
+    
+    main > div.about-us > div.experience div.truck-img{
+        max-width: 40vw;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* margin-left: 20%; */
+    }
+    
+    main > div.about-us div.experience{
+        width: 50%;
+        /* height: 100vh; */
+        /* display: flex; */
+        justify-content: end;
+        margin-right: 20px;
+        /* border: 1px solid blue; */
+    }
+    
+    main > div.about-us div.article{
+        width: 50vw;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-left: px; */
+    }
+    main > div.about-us div.article h6{
+        color: rgb(256, 56, 26);
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif
+    }
+    main > div.about-us div.article h3{
+        color: black;
+        font-size: 20px;
+        /* font-weight: bolder; */
+        font-family: 'Lucida Sans', Arial, sans-serif;
+        padding: 5px 0 5px;
+    }
+    main > div.about-us div.article p.article{
+        line-height: 18px;
+        padding-bottom: 10px;
+        color: rgb(115, 114, 114);
+        /* border: 1px solid black; */
+        width: 70%;
+        text-align: justify;
+    }
+    main > div.about-us > div.article > div.player > div.big-circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: rgb(213, 161, 161);
+        position: relative;
+    }
+    main > div.about-us > div.article > div.player > div.big-circle div.small-circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 100px;
+        background-color: red;
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main > div.about-us > div.article > div.player{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    main > div.about-us > div.article > div.player .play{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    div.about-us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3em;
+    }
+    
+    /* request for a quote section */
+
+    div.request-container{
+        background-color: rgb(243, 243, 243);
+        width: 80%;
+        height: 40vh;
+        margin: auto;
+        display: flex;
+        margin-top: 4em;
+    }
+    div.request-container div.request-wrapper{
+        display: flex;
+        margin-left: 2em;
+        gap: 8px;
+    }
+    div.request-container > div.request-wrapper div.request-article{
+        min-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        /* border: 1px solid green; */
+        /* margin-left: %; */
+    }
+    div.request-container div.request-article h5{
+        color: rgb(256, 56, 26);
+        padding-bottom: 6px;
+        font-size: 13px;
+        font-family: arial;
+    }
+    div.request-container div.request-article h1{
+        color: #000;
+        padding-bottom: 6px;
+        font-size: 20px;
+    }
+    div.request-container div.request-article p{
+        color: grey;
+        padding-bottom: 8px;
+        font-size: 15px;
+        /* border: 1px solid blue; */
+        width: 100%;
+        text-align: justify;
+    }
+    
+    div.request-container div.request-article th{
+       color: rgb(256, 56, 26);
+       font-size: 1.2em;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-align: left;
+       /* padding-bottom: px; */
+    }
+    
+    div.request-container div.request-article td{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+    }
+    
+    div.request-container div.request-form{
+        background-color: rgb(256, 56, 26);
+        min-width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        margin-left: 0.5em;
+        /* border: 1px solid blue; */
+        
+    }
+    
+    /* div.request-container > div.request-wrapper > div.request-form > form > input[type="text"],
+    div.request-container > div.request-wrapper > div.request-form > form > input[type="email"]{   
+        width: 25vw;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid rgb(256, 56, 26);
+    } */
+    
+    /* div.request-container > div.request-wrapper > div.request-form > form > select,
+    div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+        padding: 10px;
+        width: 100%;
+        margin: 10px 0;
+        border: 1px solid rgb(256, 56, 26);
+    }
+    div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+        background-color: #000;
+        color: whitesmoke;
+    } */
+    /* div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]:hover{
+        background-color: white;
+        transition: 0.5s ease-in-out;
+        color: black;
+    } */
+
+/* services section */
+section.services{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center;
+    margin-top: 4em;
+}
+
+div.services-container{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin: 10px auto 0;
+}
+div.services-container span{
+    color: white;
+    font-size: 15px;
+    /* margin-left: 8px; */
+}
+div.services-container i{
+    font-size: 18px;
+    /* margin-left: px; */
+}
+div.services-container div.air,
+div.services-container div.ocean,
+div.services-container div.land,
+div.services-container div.cargo{
+    width: 35vw;
+    padding: 0 8px;
+}
+
+section.services > div.services-container div.icons{
+    background-color: rgb(256, 56, 26);
+    /* width: 10em; */
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section.services h6{
+    color: rgb(256, 56, 26);
+    font-size: 15px;
+
+}
+section.services h1{
+    font-size: 2em;
+}
+
+.services-container > div p{
+    color: grey;
+    /* margin: 8px 0px; */
+    font-size: small;
+}
+
+.services-container a{
+    text-decoration: none;
+    color:  rgb(256, 56, 26);
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px dotted grey;
+}
+
+/* services section */
+
+/* why choose us section */
+
+section.feature-section{
+    /* display: flex;
+    background-color: rgb(243, 243, 243);
+    width: 80%;
+    height: 50vh;
+    margin: auto; */
+    margin-top: 3em;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+section.feature-section > div.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 5px;
+}
+
+section.feature-section > div.feature img{
+    width: 34vw;
+    height: 50vh;
+
+    /* margin-top: 2px; */
+}
+
+/* div.feature .text{
+    margin: 8px 0 0 20px;
+    width: 50%;
+} */
+
+div.feature .text h6{
+    color:  rgb(256, 56, 26);
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 5px;
+    /* padding-top: 50px; */
+}
+div.feature .text h1{
+    font-size: 1.2em;
+    line-height: 0.9em;
+    margin-bottom: -2px;
+    /* padding-bottom: px; */
+}
+div.feature .text p{
+    /* border: 1px solid green; */
+    max-width: 60vw;
+    padding-bottom: 8px;
+    text-align: justify;
+}
+div.feature .text ul{
+    /* margin-left: em; */
+    font-weight: bold;
+    list-style-type: none;
+}
+div.feature .text ul span{
+    color: red;
+}
+div.feature .text button{
+    background-color: rgb(256, 56, 26);
+    border: rgb(256, 56, 26);
+    padding: 7px 9px;
+    margin: 0.5em 0em;
+}
+
+/* why shoose us section */
+
+/* delivery section */
+
+div.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em auto 0;
+    width: 80%;
+    /* border: 1px solid blue; */
+    /* font-family: sans-serif; */
+}
+
+div.delivery h5{
+    color: rgb(256, 56, 26);
+    font-size: 0.8em;
+}
+
+div.delivery h1{
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+div.delivery div.team-images{
+    display: grid;
+    grid-template-columns: 15em 15em;
+    gap: 0.5em;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+div.delivery > div.team-images div.team div{
+    width: 13rem;
+    height: 10em;
+    display: flex;
+}
+div.delivery > div.team-images div.team div img{
+    width: 100%;
+}
+
+div.delivery > div.team-images > div.team div.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 14rem; */
+    background-color: grey;
+    height: 4em;  
+    line-height: 1.5em;
+    border-bottom: 3px solid red; 
+}
+div.delivery > div.team-images > div.team div.Name h2{
+    font-size: 1.2em;
+}
+div.delivery > div.team-images > div.team div.Name p{
+    font-size: 0.85em;
+}
+/* delivery section */
+
+/* footer section starts here */
+
+section.footer-section{
+    background-color: #020116e7;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+}
+
+section.footer-section > div.section-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+section.footer-section > div.section-1 div.get-section{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+section.footer-section > div.section-1 div.links-section{
+    width: 30%;
+    margin: 1.5rem 0 0 1rem;
+}
+section.footer-section > div.section-1 div.news-section{
+    width: 40%;
+    margin: 1.5em 0.5em 0 0;
+}
+section.footer-section > div.section-1 div.news-section p{
+    width: 30vw;
+    line-height: 1.8em;
+    text-align: justify;
+
+}
+section.footer-section > div.section-1 h3{
+    color:  rgb(256, 56, 26);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3em;
+}
+
+section.footer-section > div.section-1 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 1.4rem;
+}
+section.footer-section > div.section-1 a{
+    text-decoration: none;
+    color: white;
+}
+section.footer-section > div.section-1 div.get-section div.brands{
+    display: flex;
+    gap: 3px;
+}
+
+section.footer-section > div.section-1 div.get-section div.brands div{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;   
+}
+
+section.footer-section > div.section-1 input[type="email"]{
+    padding: 0.8em 1em 0.8em 0.7em;
+    border: none;
+    margin-bottom: 3px;
+}
+
+section.footer-section > div.section-1 button{
+    padding: 0.7em;
+    background-color: rgb(256, 56, 26);
+    border: none;
+    color: white;
+}
+
+
+section.copy-footer{
+    background-color: #020116e7;
+    width: 80%;
+    margin: auto;
+    height: 8em;
+    /* margin-top: -em; */
+    display: flex;
+    align-items: end;
+    border: none
+}
+
+section.copy-footer div.footer{
+    /* background-color: #020116e7; */
+    width: 100%;
+    height: 8em;
+    display: flex;
+    /* margin-bottom: 4em; */
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    
+}
+section.copy-footer div.footer div.right{
+    margin: 4em 0 0 1.2em;
+    color: white;
+    /* font-size: 0.85em; */
+}
+section.copy-footer div.footer ul li{
+    display: inline;
+    color: white;
+    font-size: 0.62em;
+    list-style: none;
+    /* margin: 0 em 0 0;
+    word-spacing: 1px; */
+}
+section.copy-footer div.footer p{
+    font-size: 11.5px;
+}
+section.copy-footer div.footer ul{
+    margin-top: 3em;
+
+}
+section.copy-footer div.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+}
+
+
+/* media query  between 575px to 767px ends here */
+
+@media (max-width: 580px){
+    
+    header > div.nav-icons{
+        background-color: black;
+        color: white;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    ul.icons > li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    ul.mail > li,
+    ul.icons > li {
+        display: inline;
+        list-style: none;
+        font-size: 9px;
+    } 
+    
+    
+    /* navbar */
+
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+    }
+    
+    ul.navbar > li{
+        display: none;
+    }
+    
+    nav h1{
+        font-size: 30px;
+        color: rgb(256, 56, 26);
+    }
+    
+    button.cta-1{
+        display: none;
+    }
+    
+    nav p{
+        display: contents;
+    }
+    
+    
+    section.hero{
+        background-image: url(../images/header.jpg);
+        width: 100%;
+        height: 55vh;
+        margin: auto;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    div.hero-section{
+        background-color: rgba(0, 0, 0, 0.796);
+        width: 100%;
+        height: 55vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: sans-serif;
+        /* line-height: 4rem; */
+    }
+    
+    div.hero-section h3{
+        font-size: 1.4rem;
+        color: rgb(256, 56, 26);
+    }
+    
+    div.hero-section h1{
+        font-size: 2rem;
+        color: white;
+    }
+    
+    div.hero-section button{
+        padding: 10px;
+        margin-left: px;
+        background-color: rgb(256, 56, 26);
+        border: none;
+    }
+    
+    div.hero-section input[type="text"]{
+        padding: 10px;
+        width: 12rem;
+    }
+
+    div.hero-section button,
+    div.hero-section input[type="text"]{
+        margin-top: 45px;
+    }
+
+main > div.about-us div.experience div.years{
+    background-color: rgb(256, 56, 26);
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main > div.about-us > div.experience div.truck-img{
+    max-width: 70%;
+    /* height: ; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+
+main > div.about-us div.experience{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+main > div.about-us div.article{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+    /* margin-left: px; */
+}
+main > div.about-us div.article h6{
+    color: rgb(256, 56, 26);
+    font-size: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+main > div.about-us div.article h3{
+    color: black;
+    font-size: 16px;
+    /* font-weight: bolder; */
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    /* padding: 5px 0 10px; */
+    text-align: center;
+}
+main > div.about-us div.article p.article{
+    line-height: 20px;
+    padding-bottom: 10px;
+    color: rgb(115, 114, 114);
+    /* border: 1px solid black; */
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+main > div.about-us > div.article > div.player > div.big-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(213, 161, 161);
+    position: relative;
+}
+main > div.about-us > div.article > div.player > div.big-circle div.small-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > div.about-us > div.article > div.player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div.about-us > div.article > div.player .play{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+div.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+div.request-container{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    margin-top: 2.5em;
+}
+div.request-container div.request-wrapper{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+div.request-container > div.request-wrapper div.request-article{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    /* margin-left: %; */
+}
+div.request-container div.request-article h5{
+    /* color: rgb(256, 56, 26);
+    padding-bottom: 6px;
+    font-size: 13px;
+    font-family: arial; */
+    margin-top: 5px;
+}
+/* div.request-container div.request-article h1{
+    color: #000;
+    padding-bottom: 6px;
+    font-size: 20px;
+} */
+div.request-container div.request-article p{
+    color: grey;
+    padding-bottom: 8px;
+    font-size: 13px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    text-align: justify;
+}
+
+div.request-container div.request-article th{
+   color: rgb(256, 56, 26);
+   font-size: 1.2em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   width: 4em;
+   /* padding-bottom: px; */
+}
+
+div.request-container div.request-article td{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+}
+
+div.request-container div.request-form{
+    background-color: rgb(256, 56, 26);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    /* margin-left: 0.5em; */
+    /* border: 1px solid blue; */
+    
+}
+
+div.request-container > div.request-wrapper > div.request-form > form > input[type="text"],
+div.request-container > div.request-wrapper > div.request-form > form > input[type="email"]{   
+    width: 50vw;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+
+/* div.request-container > div.request-wrapper > div.request-form > form > select,
+div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(256, 56, 26);
+}
+div.request-container > div.request-wrapper > div.request-form > form > input[type="submit"]{
+    background-color: #000;
+    color: whitesmoke;
+} */
+
+section.services{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    text-align: center;
+    margin-top: 3em;
+    /* margin-bottom: 5em; */
+}
+
+div.services-container{
+    display: grid;
+    width: 90%;
+    justify-content: center;
+    margin: 10px auto 0;
+}
+div.services-container span{
+    color: white;
+    font-size: 15px;
+    /* margin-left: 8px; */
+}
+div.services-container i{
+    font-size: 18px;
+    /* margin-left: px; */
+}
+div.services-container div.air,
+div.services-container div.ocean,
+div.services-container div.land,
+div.services-container div.cargo{
+    width: 40vw;
+    padding: 0 8px;
+}
+
+section.services > div.services-container div.icons{
+    background-color: rgb(256, 56, 26);
+    /* width: 10em; */
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+section.services h6{
+    color: rgb(256, 56, 26);
+    font-size: 13px;
+
+}
+section.services h1{
+    font-size: 1.5em;
+}
+
+.services-container > div p{
+    color: grey;
+    margin: 4px 0px;
+    font-size: 17px;
+}
+
+.services-container a{
+    text-decoration: none;
+    color:  rgb(256, 56, 26);
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px dotted grey
+}
+
+section.feature-section{
+    /* display: flex; */
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 100vh;
+    margin-top: 3em auto 0;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+section.feature-section > div.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    /* height: auto; */
+    margin: 0 auto;
+}
+
+section.feature-section > div.feature div.img{
+    min-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.feature-section > div.feature img{
+    min-width: 70%;
+    height: 40vh;
+    margin: 0 auto 0;
+}
+
+div.feature .text{
+    /* margin: 6px 0 0 20px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+div.feature .text h6{
+    color:  rgb(256, 56, 26);
+    font-weight: bold;
+    font-size: 12px;
+    /* padding-bottom: 5px; */
+    text-align: center;
+    /* padding-top: 50px; */
+}
+div.feature .text h1{
+    /* display: inline-block; */
+    font-size: 1.3em;
+    text-align: center;
+    /* line-height: em; */
+    /* margin-bottom: -2px; */
+    /* padding-bottom: px; */
+}
+div.feature .text p{
+    /* border: 1px solid green; */
+    min-width: 80%;
+    margin: auto;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+div.feature .text ul{
+    /* border: 2px solid blue; */
+    width: 70%;
+    list-style: none;
+    margin: auto;
+    text-align: justify;
+    margin-left: 3em;
+    /* text-indent: 8px; */
+
+}
+div.feature .text button{
+    background-color: rgb(256, 56, 26);
+    border: rgb(256, 56, 26);
+    width: 7em;
+    margin: auto;
+    /* padding: 7px 9px; */
+    /* margin: 0.5em 0em; */
+}
+
+div.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em auto 0;
+    width: 90%;
+    /* border: 1px solid blue; */
+    /* font-family: sans-serif; */
+}
+
+div.delivery h5{
+    color: rgb(256, 56, 26);
+    font-size: 0.8em;
+}
+
+div.delivery h1{
+    font-size: 1.3em;
+    margin-bottom: 0.7em;
+}
+
+div.delivery div.team-images{
+    display: grid;
+    grid-template-columns: 9em 12em;
+    gap: 0.3em;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+div.delivery > div.team-images div.team div{
+    width: 10rem;
+    height: 8em;
+    display: flex;
+    align-items: baseline;
+    margin: auto;
+}
+div.delivery > div.team-images div.team div img{
+    width: 100%;
+    margin: auto;
+}
+
+div.delivery > div.team-images > div.team div.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    /* width: 14rem; */
+    background-color: grey;
+    height: 5em;  
+    line-height: 1.3em;
+    border-bottom: 3px solid red; 
+}
+div.delivery > div.team-images > div.team div.Name h2{
+    font-size: 1.1em;
+}
+div.delivery > div.team-images > div.team div.Name p{
+    font-size: 0.85em;
+}
+
+
+section.footer-section{
+    background-color: #020116e7;
+    width: 100%;
+    height: 50vh;
+    /* margin: auto; */
+}
+
+section.footer-section > div.section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+section.footer-section > div.section-1 div.get-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+section.footer-section > div.section-1 div.links-section{
+    width: 100%;
+    margin: 1.5rem 0 0 1rem;
+}
+section.footer-section > div.section-1 div.news-section{
+    width: 100%;
+    margin: -0.1em 0 0 1.5em;
+    /* grid-column: 1/3; */
+}
+section.footer-section > div.section-1 div.news-section p{
+    width:  70vw;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+section.footer-section > div.section-1 h3{
+    color:  rgb(256, 56, 26);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.3em;
+}
+
+section.footer-section > div.section-1 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 1.4rem;
+}
+/* section.footer-section > div.section-1 a{
+    text-decoration: none;
+    color: white;
+} */
+/* section.footer-section > div.section-1 div.get-section div.brands{
+    display: flex;
+    gap: 3px;
+} */
+
+section.footer-section > div.section-1 div.get-section div.brands div{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;   
+}
+section.footer-section > div.section-1 div.news-section input[type="email"]{
+    padding: 0.5em 1em 0.5em 0.5em;
+    border: none;
+    margin-bottom: 2px;
+}
+
+section.footer-section > div.section-1 div.news-section button{
+    padding: 0.5em;
+    background-color: rgb(256, 56, 26);
+    border: none;
+    color: white;
+}
+
+/* section.footer-section > div.section-1 input[type="email"]{
+    padding: 0.6m 0.8em 0.6em 0.5em !important;
+    border: none;
+    margin-bottom: 3px;
+}
+
+section.footer-section > div.section-1 button{
+    padding: 0.7em;
+    background-color: rgb(256, 56, 26);
+    border: none;
+    color: white;
+} */
+
+
+section.copy-footer{
+    background-color: #020116e7;
+    width: 100%;
+    margin: auto;
+    height: 8em;
+    /* margin-top: -em; */
+    display: flex;
+    align-items: end;
+    border: none
+}
+
+section.copy-footer div.footer{
+    /* background-color: #020116e7; */
+    width: 100%;
+    height: 8em;
+    display: flex;
+    /* margin-bottom: 4em; */
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    
+}
+section.copy-footer div.footer div.right{
+    margin: 4em 0 0 1.2em;
+    color: white;
+    /* font-size: 0.85em; */
+}
+section.copy-footer div.footer ul li{
+    display: inline;
+    color: white;
+    font-size: 0.62em;
+    list-style: none;
+    /* margin: 0 em 0 0;
+    word-spacing: 1px; */
+}
+section.copy-footer div.footer p{
+    font-size: 11.5px;
+}
+section.copy-footer div.footer ul{
+    margin-top: 3em;
+
+}
+section.copy-footer div.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+}
